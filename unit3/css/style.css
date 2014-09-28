@@ -1,0 +1,31 @@
+body{
+	background: url("../img/stripes.png") repeat-x, url("../img/background.jpg") no-repeat;
+	background-color:#535B6B;
+	font-size: 20px;
+	font-family: Arial, sans-serif;
+	color: white;
+	text-align: left;
+	margin-left: 100px;
+}
+
+
+hr{	
+	height:3px;
+	width:45px;
+	background-color:#905D67;
+	border-color: #7D5762;
+	border-top-color:#7D5762;
+	border-top-style: hidden;
+	border-left-style: hidden;
+	/* The software tool I used to get the hexadecimal value for the border was an online tool found here "http://html-color-codes.info" */
+}
+
+a{
+	padding-top: 3px;
+	padding-bottom: 3px;
+}
+
+.logo{
+	margin-top: 250px;
+	/* thanks to Andre Plaut for help here.*/
+}
