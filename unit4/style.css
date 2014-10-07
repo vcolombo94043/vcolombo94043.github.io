@@ -1,0 +1,50 @@
+/* Vito Colombo, vcolombo94034@gmail.com, @vito_colombo */
+
+BODY{
+	background: url("assets/pastapomodoro.jpg") no-repeat;
+	background-position: center;
+	background-size: 100%%;
+	background-attachment: fixed;
+	background-position: 50% 0%;
+	background-color: #B7B7B7;
+	font-family: "Molle:400italic",Helvetica,Arial,'cursive';
+	font-size: 25px; 
+	
+}
+
+
+ .logo{
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+/* Thanks to Jon for this bit so that the logo moves when the window sizes*/
+} 
+
+
+p{
+/* This styles the message line */
+	margin-top:200px;
+	display: block;
+	font-family: Helvetica,Arial,'cursive';
+	color: white;
+	text-align: center;
+	font-size: 30px;
+
+}
+
+h3{
+/* This styles the address line */
+	margin-top:150px;
+	display: block;
+	font-family: "Satisfy",Helvetica,Arial,'cursive';
+	color: white;
+	text-align: center;
+	font-size: 30px;
+
+}
+
+ul{
+/* This style takes out the bullet points so it looks more like an address */
+	list-style-type: none;
+
+}
