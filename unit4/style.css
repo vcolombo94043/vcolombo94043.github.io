@@ -16,14 +16,16 @@ BODY{
  .logo{
 	margin-left: auto;
 	margin-right: auto;
+	margin-top: -20px; 
 	display: block;
 /* Thanks to Jon for this bit so that the logo moves when the window sizes*/
+/* On Sarah's advice I changed the vertical location of the logo so that it hits the top of the page */
 } 
 
 
 p{
 /* This styles the message line */
-	margin-top:200px;
+	margin-top:275px;
 	display: block;
 	font-family: Helvetica,Arial,'cursive';
 	color: white;
@@ -34,7 +36,7 @@ p{
 
 h3{
 /* This styles the address line */
-	margin-top:150px;
+	margin-top:125px;
 	display: block;
 	font-family: "Satisfy",Helvetica,Arial,'cursive';
 	color: white;
