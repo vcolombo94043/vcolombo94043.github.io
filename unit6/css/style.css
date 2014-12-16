@@ -1,0 +1,142 @@
+/* Vito Colombo, vcolombo94034@gmail.com, @vito_colombo */
+
+BODY{
+	background: url("../assets/truglifree.jpg") no-repeat;
+	background-position: center;
+    background-size: 100%;
+    background-attachment: fixed;
+    background-position: 50% 0%;
+    background-color: #ffffff;
+    font-family: "Economica:400,700", sans-serif;
+    font-size: 25px; 
+}
+
+
+.LOGO{
+    width: 25%;
+    height: auto;
+    }
+
+
+
+/* GOOGLE FONT
+Embed a Google font by adding one line of code within your head tag.
+The site is located at http://www.google.com/fonts */
+
+h1 { 
+    font-family: "Economica", sans-serif;
+	font-weight: 400; 
+    color: #FE9A2E; /* Orange */
+} 
+
+.Welcome1{
+    width: 400px;
+    padding: 25px;
+    margin: 10px;
+    margin-top:20px;
+    margin-left:400px;
+    display: block;
+    font-size: 125%;
+    text-align: center;
+    text-shadow: #000000 0px 0px 1px, #000000 0px 0px 1px, #000000 0px 0px 1px, #000000 0px 0px 1px;
+}
+
+.Welcome2{
+    width: 450px;
+    padding: 25px;
+    margin: 10px;
+    margin-top:50px;
+    margin-left:450px;
+    display: block;
+    font-size: 90%;
+    text-align: left;
+    text-shadow: #000000 0px 0px 1px, #000000 0px 0px 1px, #000000 0px 0px 1px, #000000 0px 0px 1px;
+}
+
+p {
+    padding: 10px;
+}
+
+.login{
+    width: 25%;
+    height: auto;
+    margin-left: 600px;
+    display: block;
+    
+}
+
+/* THE BOX MODEL */
+
+/* 
+div {
+    width: 300px;
+    padding: 25px;
+    margin: 25px;
+     
+    margin: top right bottom left;
+       or you can spread it out: 
+    4 values, Top Right Bottom Left
+    3 values, T RL B
+    2 values, TB LR
+    1 value, TRBL
+    
+    border: 25px solid navy;
+     
+    border: width style color;
+       or you can spread it out: 
+    border-width: 25px;
+    border-style: solid;
+    border-color: navy; 
+        
+} */
+
+
+
+/* CLEARFIX METHOD
+when you need to clear the div but can't use clear:both method you need to create a clearfix class*/
+
+/*
+.clearfix:after{
+	visibility: hidden;
+	display: block;
+	font-size: 0;
+	content: " ";
+	clear: both;
+	height: 0;
+}
+*/
+
+/* HOVER AS A PSEUDO-CLASS
+When you need the nav or menu item to change color when you roll the cursor over it, use the hover method by creating a pseudo-class. Name the pseudo-class with the name of the original class, this case a, then type colon hover. "a:hover{}"  
+
+You can also change the font-size, etc */
+
+/*
+a:hover {
+  background-color: #aaaaaa;
+}
+
+.footer {
+    font-size: 10px;
+    font-weight: 400;   
+    text-decoration: none;
+    display: block;
+    float: left;
+    padding: 20px;
+}
+
+#footerleft{
+    height: 30px;
+    text-align: left;
+    width: 400px;
+    padding: 20px;
+}
+
+#footerright{
+    height: 30px;
+    text-align: right;
+    width: 200px;
+    padding: 20px;
+}
+
+*/
